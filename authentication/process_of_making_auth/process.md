@@ -26,3 +26,10 @@ to make it live you have to install js module
 	interface for the laravel page
 
 12) laravel by default create the user database and the regitration will save the user in the user database
+
+13) you dont have to make the user database cause it by default added
+
+14) go to web.php you will see that there are routes in there
+means all the route will be in routes/web.php
+
+15) it will make a controller and route for the login and registration for goint to the /home

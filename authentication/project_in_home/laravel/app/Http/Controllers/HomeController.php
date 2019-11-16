@@ -13,6 +13,9 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+        // middleware auth will check the authentication
+        // if any middleware use this thing 
+        // you have to go through the authntication
         $this->middleware('auth');
     }
 
