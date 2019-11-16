@@ -22,6 +22,19 @@ Route::get('/', function () {
 *	middleware so to go to home you have to go through
 *	the authntication  process
 */
+
+
 Auth::routes();
+
+/*
+*	now there is some additional options
+*	if you want to just add the login
+*	not any registration form then you can di this
+		=>Auth::routes(['register'=>false]);
+    then the user cant register the website
+    only he can login in the website
+*/
+
+
 
 Route::get('/home', 'HomeController@index')->name('home');
