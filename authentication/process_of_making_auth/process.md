@@ -8,19 +8,21 @@
 7) then immidiately migrate the database
 	=>php artisan migrate
 8) if you want to rollback
-	->php artisan migrate:rollback
-9) 	->php artisan serve
+
+	-> php artisan migrate:rollback
+9) 	
+	-> php artisan serve
 	to see the website
 10) install the authentication system
 
-	->composer require laravel/ui --dev
+	-> composer require laravel/ui --dev
 
-	->php artisan ui vue --auth
+	-> php artisan ui vue --auth
 
 this will give you the auth interface
 to make it live you have to install js module
 	
-	->npm install && npm run dev
+	-> npm install && npm run dev
 
 11) after that you will find the login and registration 
 	interface for the laravel page
